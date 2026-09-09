@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" rx="16" fill="#faf7ff"/>
+  <text x="100" y="24" text-anchor="middle" fill="#8b5cf6" font-size="12" font-family="sans-serif">① 中立</text>
+  <text x="300" y="24" text-anchor="middle" fill="#8b5cf6" font-size="12" font-family="sans-serif">② 水平回缩</text>
+  <!-- Frame 1 -->
+  <g transform="translate(100,120)">
+    <line x1="0" y1="40" x2="0" y2="-20" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-40" r="18" stroke="#c4b5fd" stroke-width="3" fill="#f3e8ff"/>
+    <circle cx="6" cy="-44" r="2" fill="#7c3aed"/>
+    <path d="M8 -36 Q14 -34 10 -30" stroke="#7c3aed" stroke-width="1.5" fill="none"/>
+    <line x1="-18" y1="-40" x2="-28" y2="-40" stroke="#fda4af" stroke-width="2" stroke-dasharray="3 2"/>
+  </g>
+  <!-- Frame 2 -->
+  <g transform="translate(300,120)">
+    <line x1="0" y1="40" x2="0" y2="-20" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-8" cy="-40" r="18" stroke="#f9a8d4" stroke-width="3" fill="#fff1f2"/>
+    <circle cx="-2" cy="-44" r="2" fill="#be185d"/>
+    <path d="M0 -36 Q6 -34 2 -30" stroke="#be185d" stroke-width="1.5" fill="none"/>
+    <path d="M20 -40 L8 -40" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <text x="14" y="-48" fill="#0d9488" font-size="10">← 收</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#0d9488"/></marker>
+  </defs>
+  <line x1="200" y1="40" x2="200" y2="180" stroke="#e9d5ff" stroke-width="1"/>
+</svg>

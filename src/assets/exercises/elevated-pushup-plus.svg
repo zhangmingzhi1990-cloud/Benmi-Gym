@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" fill="none">
+  <rect width="480" height="220" rx="16" fill="#faf7ff"/>
+  <text x="80" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">① 垫高支撑</text>
+  <text x="240" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">② 下落</text>
+  <text x="400" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">③ Plus</text>
+  <!-- benches -->
+  <rect x="40" y="100" width="70" height="12" rx="2" fill="#c4b5fd"/>
+  <rect x="200" y="100" width="70" height="12" rx="2" fill="#c4b5fd"/>
+  <rect x="360" y="100" width="70" height="12" rx="2" fill="#5eead4"/>
+  <line x1="20" y1="190" x2="460" y2="190" stroke="#e9d5ff" stroke-width="2"/>
+  <g transform="translate(75,100)">
+    <line x1="0" y1="0" x2="40" y2="70" stroke="#a78bfa" stroke-width="4"/>
+    <circle cx="-8" cy="-15" r="11" fill="#f3e8ff" stroke="#a78bfa" stroke-width="2"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#fda4af" stroke-width="3"/>
+  </g>
+  <g transform="translate(235,95)">
+    <line x1="0" y1="10" x2="35" y2="80" stroke="#f9a8d4" stroke-width="4"/>
+    <circle cx="-10" cy="-5" r="11" fill="#fff1f2" stroke="#f9a8d4" stroke-width="2"/>
+    <path d="M-12 12 L12 18" stroke="#fda4af" stroke-width="3"/>
+  </g>
+  <g transform="translate(395,100)">
+    <line x1="0" y1="0" x2="40" y2="70" stroke="#0d9488" stroke-width="4"/>
+    <circle cx="-8" cy="-15" r="11" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+    <line x1="-18" y1="-2" x2="18" y2="-2" stroke="#5eead4" stroke-width="3"/>
+    <text x="25" y="-20" fill="#0d9488" font-size="10">protraction</text>
+  </g>
+</svg>

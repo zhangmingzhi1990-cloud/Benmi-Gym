@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" rx="16" fill="#faf7ff"/>
+  <text x="100" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">① 肘贴腰</text>
+  <text x="300" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">② 外旋</text>
+  <g transform="translate(100,120)">
+    <line x1="0" y1="40" x2="0" y2="-25" stroke="#a78bfa" stroke-width="4"/>
+    <circle cx="0" cy="-42" r="14" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2"/>
+    <line x1="8" y1="-5" x2="8" y2="25" stroke="#fda4af" stroke-width="4" stroke-linecap="round"/>
+    <line x1="8" y1="25" x2="40" y2="25" stroke="#f9a8d4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-5 5 L5 5" stroke="#be185d" stroke-width="2"/>
+    <text x="0" y="60" text-anchor="middle" fill="#be185d" font-size="9">肘「粘」住</text>
+  </g>
+  <g transform="translate(300,120)">
+    <line x1="0" y1="40" x2="0" y2="-25" stroke="#a78bfa" stroke-width="4"/>
+    <circle cx="0" cy="-42" r="14" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+    <line x1="8" y1="-5" x2="8" y2="25" stroke="#0d9488" stroke-width="4" stroke-linecap="round"/>
+    <line x1="8" y1="25" x2="8" y2="55" stroke="#5eead4" stroke-width="4" stroke-linecap="round" transform="rotate(-70 8 25)"/>
+    <path d="M25 30 Q40 15 35 5" stroke="#0d9488" stroke-width="2" fill="none"/>
+    <text x="0" y="60" text-anchor="middle" fill="#0d9488" font-size="9">向外转</text>
+  </g>
+  <!-- band hint -->
+  <path d="M140 145 Q200 130 260 145" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="4 3"/>
+</svg>

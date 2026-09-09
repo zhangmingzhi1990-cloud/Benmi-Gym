@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" fill="none">
+  <rect width="480" height="200" rx="16" fill="#faf7ff"/>
+  <text x="80" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">① 手臂前伸</text>
+  <text x="240" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">② 肘向躯干</text>
+  <text x="400" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">③ 顶峰稍停</text>
+  <line x1="20" y1="170" x2="460" y2="170" stroke="#e9d5ff" stroke-width="2"/>
+  <g transform="translate(80,130)">
+    <line x1="0" y1="30" x2="0" y2="-20" stroke="#a78bfa" stroke-width="4"/>
+    <circle cx="0" cy="-38" r="14" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2"/>
+    <line x1="5" y1="-10" x2="55" y2="-15" stroke="#fda4af" stroke-width="3" stroke-linecap="round"/>
+    <line x1="5" y1="-5" x2="55" y2="-5" stroke="#f9a8d4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55 -15 L70 -15 M55 -5 L70 -5" stroke="#c4b5fd" stroke-width="2"/>
+  </g>
+  <g transform="translate(240,130)">
+    <line x1="0" y1="30" x2="0" y2="-20" stroke="#a78bfa" stroke-width="4"/>
+    <circle cx="0" cy="-38" r="14" fill="#fff1f2" stroke="#f9a8d4" stroke-width="2"/>
+    <path d="M8 -12 L30 -8 L20 15" stroke="#fda4af" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-8 -12 L-30 -8 L-20 15" stroke="#f9a8d4" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="0" y="50" text-anchor="middle" fill="#be185d" font-size="9">肘→肋骨</text>
+  </g>
+  <g transform="translate(400,130)">
+    <line x1="0" y1="30" x2="0" y2="-20" stroke="#0d9488" stroke-width="4"/>
+    <circle cx="0" cy="-38" r="14" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+    <path d="M10 -15 L22 5 L8 20" stroke="#0d9488" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-10 -15 L-22 5 L-8 20" stroke="#0d9488" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-18 -25 Q0 -35 18 -25" stroke="#5eead4" stroke-width="2" stroke-dasharray="3 2"/>
+    <text x="0" y="50" text-anchor="middle" fill="#0d9488" font-size="9">不耸肩</text>
+  </g>
+</svg>

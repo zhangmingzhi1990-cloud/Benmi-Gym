@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none">
+  <rect width="400" height="200" rx="16" fill="#faf7ff"/>
+  <text x="100" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">① 肩胛下沉</text>
+  <text x="300" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">② 推高 Plus</text>
+  <line x1="20" y1="170" x2="380" y2="170" stroke="#e9d5ff" stroke-width="2"/>
+  <g transform="translate(100,100)">
+    <line x1="-40" y1="50" x2="40" y2="50" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="-30" y1="50" x2="-30" y2="10" stroke="#a78bfa" stroke-width="3"/>
+    <line x1="30" y1="50" x2="30" y2="10" stroke="#a78bfa" stroke-width="3"/>
+    <path d="M-30 10 Q0 25 30 10" stroke="#fda4af" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="0" r="12" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2"/>
+    <text x="0" y="75" text-anchor="middle" fill="#be185d" font-size="9">肘伸直</text>
+  </g>
+  <g transform="translate(300,100)">
+    <line x1="-40" y1="50" x2="40" y2="50" stroke="#0d9488" stroke-width="3"/>
+    <line x1="-30" y1="50" x2="-30" y2="0" stroke="#0d9488" stroke-width="3"/>
+    <line x1="30" y1="50" x2="30" y2="0" stroke="#0d9488" stroke-width="3"/>
+    <path d="M-30 0 Q0 -15 30 0" stroke="#5eead4" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="-20" r="12" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+    <text x="0" y="75" text-anchor="middle" fill="#0d9488" font-size="9">乌龟壳起伏</text>
+  </g>
+</svg>

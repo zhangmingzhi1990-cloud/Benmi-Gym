@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" fill="none">
+  <rect width="520" height="180" rx="16" fill="#faf7ff"/>
+  <text x="65" y="20" text-anchor="middle" fill="#8b5cf6" font-size="10">转左</text>
+  <text x="195" y="20" text-anchor="middle" fill="#8b5cf6" font-size="10">转右</text>
+  <text x="325" y="20" text-anchor="middle" fill="#8b5cf6" font-size="10">侧屈</text>
+  <text x="455" y="20" text-anchor="middle" fill="#8b5cf6" font-size="10">微点头</text>
+  <g transform="translate(65,100)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="-6" cy="-20" rx="16" ry="18" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2" transform="rotate(-25)"/>
+  </g>
+  <g transform="translate(195,100)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#a78bfa" stroke-width="3"/>
+    <ellipse cx="6" cy="-20" rx="16" ry="18" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2" transform="rotate(25)"/>
+  </g>
+  <g transform="translate(325,100)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="8" cy="-22" r="16" fill="#fff1f2" stroke="#f9a8d4" stroke-width="2"/>
+    <line x1="0" y1="-5" x2="6" y2="-8" stroke="#a78bfa" stroke-width="3"/>
+  </g>
+  <g transform="translate(455,100)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="0" cy="-18" r="16" fill="#f0fdfa" stroke="#5eead4" stroke-width="2"/>
+    <path d="M0 -5 Q0 0 0 5" stroke="#0d9488" stroke-width="2" stroke-dasharray="2"/>
+  </g>
+  <text x="260" y="168" text-anchor="middle" fill="#a78bfa" font-size="11">极慢 · 无弹震 · 轻微牵拉即停</text>
+</svg>

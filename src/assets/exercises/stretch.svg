@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" fill="none">
+  <rect width="400" height="220" rx="16" fill="#faf7ff"/>
+  <text x="200" y="28" text-anchor="middle" fill="#8b5cf6" font-size="13">米米拉伸组合 · 30 分钟</text>
+  <!-- soft yoga figure -->
+  <g transform="translate(200,130)">
+    <ellipse cx="0" cy="40" rx="60" ry="10" fill="#f3e8ff"/>
+    <circle cx="0" cy="-50" r="16" fill="#fce7f3" stroke="#f9a8d4" stroke-width="2"/>
+    <path d="M0 -30 Q-40 10 -50 40" stroke="#a78bfa" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M0 -30 Q40 10 50 40" stroke="#a78bfa" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-15 -20 Q0 20 0 40" stroke="#c4b5fd" stroke-width="3" fill="none"/>
+    <path d="M15 -20 Q0 20 0 40" stroke="#c4b5fd" stroke-width="3" fill="none"/>
+  </g>
+  <text x="200" y="195" text-anchor="middle" fill="#7c3aed" font-size="10">颈肩 → 胸椎 → 胸部 → 髋 → 放松</text>
+  <text x="200" y="210" text-anchor="middle" fill="#a78bfa" font-size="9">每段轻柔牵拉 · 配合呼吸</text>
+</svg>

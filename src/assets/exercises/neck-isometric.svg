@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" fill="none">
+  <rect width="480" height="200" rx="16" fill="#faf7ff"/>
+  <text x="80" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">① 前额对抗</text>
+  <text x="240" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">② 侧面对抗</text>
+  <text x="400" y="22" text-anchor="middle" fill="#8b5cf6" font-size="11">③ 后脑对抗</text>
+  <g transform="translate(80,110)">
+    <line x1="0" y1="50" x2="0" y2="-5" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-28" r="20" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2.5"/>
+    <path d="M-18 -30 Q-28 -28 -22 -18" stroke="#fda4af" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <text x="0" y="70" text-anchor="middle" fill="#be185d" font-size="10">20–30% 力</text>
+    <circle cx="-5" cy="-32" r="2" fill="#7c3aed"/>
+  </g>
+  <g transform="translate(240,110)">
+    <line x1="0" y1="50" x2="0" y2="-5" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-28" r="20" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2.5"/>
+    <path d="M18 -30 Q30 -28 24 -18" stroke="#fda4af" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <text x="0" y="70" text-anchor="middle" fill="#be185d" font-size="10">头几乎不动</text>
+  </g>
+  <g transform="translate(400,110)">
+    <line x1="0" y1="50" x2="0" y2="-5" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-28" r="20" fill="#f3e8ff" stroke="#c4b5fd" stroke-width="2.5"/>
+    <path d="M-12 -42 Q0 -52 12 -42" stroke="#fda4af" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <text x="0" y="70" text-anchor="middle" fill="#be185d" font-size="10">保持 5–8 秒</text>
+  </g>
+</svg>
