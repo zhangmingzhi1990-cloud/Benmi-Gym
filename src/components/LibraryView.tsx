@@ -6,11 +6,11 @@ import type { Exercise, ExerciseId } from '../data/types'
 
 /** Real-person style cover images (first screen of library). */
 const EXERCISE_THUMBS: Partial<Record<ExerciseId, string>> = {
-  'chin-tuck': './exercises/thumbs/chin-tuck.png',
-  'open-book': './exercises/thumbs/open-book.png',
-  'neck-isometric': './exercises/thumbs/neck-isometric.png',
-  'thoracic-extension': './exercises/thumbs/thoracic-extension.png',
-  'gentle-neck-rom': './exercises/thumbs/gentle-neck-rom.png',
+  'chin-tuck': './exercises/thumbs/chin-tuck-f1.png',
+  'open-book': './exercises/thumbs/open-book-f1.png',
+  'neck-isometric': './exercises/thumbs/neck-isometric-f1.png',
+  'thoracic-extension': './exercises/thumbs/thoracic-extension-f1.png',
+  'gentle-neck-rom': './exercises/thumbs/gentle-neck-rom-f1.png',
 }
 
 export function LibraryView() {
