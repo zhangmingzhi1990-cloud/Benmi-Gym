@@ -1,0 +1,30 @@
+{
+  "name": "米米打卡",
+  "short_name": "米米打卡",
+  "description": "米米专属偏头痛与颈肩辅助训练 30 天 — 笨笨 + 米米情侣打卡",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f0ff",
+  "theme_color": "#c4b5fd",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
