@@ -40,7 +40,7 @@ export function ExerciseModal({ exercise, onClose }: Props) {
             <div className="relative aspect-video w-full">
               <iframe
                 className="absolute inset-0 h-full w-full"
-                src={`https://www.youtube.com/embed/${exercise.videoUrl}?rel=0`}
+                src={`https://www.youtube-nocookie.com/embed/${exercise.videoUrl}?rel=0`}
                 title={`${exercise.name} 教学视频`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen

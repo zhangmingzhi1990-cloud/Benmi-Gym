@@ -7,6 +7,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Chin Tuck',
     category: '颈椎中立',
     frames: 2,
+    videoUrl: '7rnlAVhAK-8',
     cues: [
       '坐或站立，脊柱自然挺直，目光平视前方。',
       '想象做「双下巴」：下巴水平向后收，不要低头或抬头。',
@@ -38,6 +39,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Neck Isometric',
     category: '深颈稳定',
     frames: 3,
+    videoUrl: 'prjxXR87Kaw',
     cues: [
       '坐姿中立，手掌轻放于前额 / 后脑 / 侧面（分方向练习）。',
       '头对着手轻推，手对头轻抵抗——头几乎不动。',
@@ -53,6 +55,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Thoracic Extension',
     category: '胸椎活动',
     frames: 2,
+    videoUrl: '572h3665Qvs',
     cues: [
       '泡沫轴横放于上背部（肩胛下角附近），绝不要压在颈椎。',
       '双手支撑头后，臀微离地或保持接触，膝盖弯曲。',
@@ -68,6 +71,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Gentle Neck ROM',
     category: '颈椎活动',
     frames: 4,
+    videoUrl: 'u3Ocw5UIpYs',
     cues: [
       '坐姿放松，肩膀下沉放松。',
       '缓慢：左右转头 → 左右侧屈 → 轻轻点头/微仰（幅度小）。',
@@ -83,6 +87,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Wall Slide Plus',
     category: '肩胛上旋',
     frames: 3,
+    videoUrl: 'oMSVe7PWJ3o',
     cues: [
       '背靠墙，腰部可留一小空隙；双肘与手背尽量贴墙成「W」。',
       '沿墙缓慢上滑成「Y/V」，肘不离墙。',
@@ -98,6 +103,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Serratus Punch',
     category: '前锯肌',
     frames: 3,
+    videoUrl: 'r5byDDl3Ri8',
     cues: [
       '仰卧，一侧手臂垂直指向天花板（肩屈 90°）。',
       '帧1：肩胛贴床，拳头朝上。',
@@ -113,6 +119,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Wall Push-up Plus',
     category: '肩胛稳定',
     frames: 3,
+    videoUrl: '_OgCSnzSs3M',
     cues: [
       '面向墙，双手略宽于肩，身体成一条斜线。',
       '屈肘靠近墙（俯卧撑下沉），肘约 45° 不开肘过度。',
@@ -127,6 +134,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Elevated Push-up Plus',
     category: '肩胛稳定',
     frames: 3,
+    videoUrl: 'rqV-hUZPPvM',
     cues: [
       '双手撑在稳固桌面/椅面，身体成斜线平板。',
       '下落屈肘，胸向支撑面靠近，核心绷紧。',
@@ -141,6 +149,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Scapular Push-up',
     category: '肩胛控制',
     frames: 2,
+    videoUrl: 'NKekqeudgWs',
     cues: [
       '高平板或膝盖着地改良平板，肘保持伸直。',
       '只让肩胛骨「夹紧再打开」：下沉（内收贴近）→ 推高（外展 Plus）。',
@@ -155,6 +164,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Reformer Row',
     category: '上背拉力',
     frames: 3,
+    videoUrl: 'plEo4qZOdQU',
     cues: [
       '坐姿或站姿，脊柱中立，核心轻轻收。',
       '拉动手柄/弹力带，肘向身体两侧肋骨方向收（肘贴向躯干）。',
@@ -169,6 +179,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Band External Rotation',
     category: '肩袖',
     frames: 2,
+    videoUrl: '8UZT_SElGlc',
     cues: [
       '肘贴紧体侧（像夹着一张纸不掉），前臂向前，弹力带有轻微张力。',
       '前臂向外旋转，肘始终「粘」在腰侧不离开。',
@@ -183,6 +194,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Dead Bug',
     category: '核心稳定',
     frames: 3,
+    videoUrl: 'o4GKiEoYClI',
     cues: [
       '仰卧，膝髋 90°，双臂朝天花板，下背轻贴地（腰部中立）。',
       '呼气时对侧手脚缓慢远离：一臂向后上头，对侧腿向前伸。',
@@ -198,6 +210,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Plank',
     category: '核心耐力',
     frames: 1,
+    videoUrl: 'DoYPuzccR-M',
     cues: [
       '前臂或直臂支撑，身体从头到脚跟成一条直线。',
       '收紧核心与臀，不要塌腰或撅臀过高。',
@@ -212,6 +225,7 @@ export const EXERCISES: Record<string, Exercise> = {
     nameEn: 'Mimi Stretch 30min',
     category: '放松恢复',
     frames: 1,
+    videoUrl: 'JJAHGpe0AVU',
     cues: [
       '建议结构（可按感觉微调）：',
       '① 5 分钟：轻柔颈肩放松 + 深呼吸（鼻吸口呼）。',
