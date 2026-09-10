@@ -35,11 +35,29 @@ export function ExerciseModal({ exercise, onClose }: Props) {
           </button>
         </div>
 
-        <img
-          src={src}
-          alt={exercise.name}
-          className="mb-4 w-full rounded-2xl border border-violet-100 bg-lavender-50"
-        />
+        {exercise.videoUrl ? (
+          <div className="mb-4 overflow-hidden rounded-2xl border border-violet-100 bg-black">
+            <div className="relative aspect-video w-full">
+              <iframe
+                className="absolute inset-0 h-full w-full"
+                src={`https://www.youtube.com/embed/${exercise.videoUrl}?rel=0`}
+                title={`${exercise.name} 教学视频`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+            </div>
+            <p className="bg-violet-50 px-3 py-2 text-[11px] text-violet-500">
+              真人教学视频（YouTube）。网络需可访问 YouTube。
+            </p>
+          </div>
+        ) : (
+          <img
+            src={src}
+            alt={exercise.name}
+            className="mb-4 w-full rounded-2xl border border-violet-100 bg-lavender-50"
+          />
+        )}
 
         <h3 className="mb-2 text-sm font-semibold text-violet-700">动作要点</h3>
         <ul className="space-y-2 text-sm leading-relaxed text-violet-800/90">

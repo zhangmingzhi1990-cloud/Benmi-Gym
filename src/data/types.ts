@@ -23,6 +23,8 @@ export interface Exercise {
   cues: string[]
   frames: number
   caution?: string
+  /** YouTube video id for real-person demo */
+  videoUrl?: string
 }
 
 export interface DayItem {

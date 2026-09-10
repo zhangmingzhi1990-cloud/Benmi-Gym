@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <rect width="640" height="360" fill="#f7f5ff"/>
+  <text x="24" y="36" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#6d28d9">① 合拢 · Open Book 起始</text>
+  <text x="24" y="60" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">侧卧 · 髋膝约90° · 双膝叠放 · 双臂前伸掌心相对</text>
+  <!-- mat -->
+  <rect x="80" y="210" width="480" height="70" rx="12" fill="#ddd6fe"/>
+  <!-- pillow -->
+  <rect x="95" y="195" width="70" height="28" rx="8" fill="#c4b5fd"/>
+  <!-- body: lying on left side, head left, knees toward bottom-right -->
+  <!-- head -->
+  <circle cx="130" cy="200" r="22" fill="#f5d0c5" stroke="#9a6b5c" stroke-width="2"/>
+  <!-- torso -->
+  <ellipse cx="230" cy="215" rx="70" ry="28" fill="#a78bfa" stroke="#6d28d9" stroke-width="2"/>
+  <!-- pelvis -->
+  <ellipse cx="310" cy="230" rx="34" ry="24" fill="#8b5cf6" stroke="#6d28d9" stroke-width="2"/>
+  <!-- thighs stacked toward bottom -->
+  <path d="M330 240 L390 290" stroke="#7c3aed" stroke-width="18" stroke-linecap="round"/>
+  <path d="M332 248 L392 298" stroke="#6d28d9" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  <!-- shins -->
+  <path d="M390 290 L455 255" stroke="#7c3aed" stroke-width="16" stroke-linecap="round"/>
+  <path d="M392 298 L457 263" stroke="#6d28d9" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+  <!-- bottom arm (left) forward on floor -->
+  <path d="M185 215 L300 175" stroke="#f5d0c5" stroke-width="14" stroke-linecap="round"/>
+  <!-- top arm stacked on bottom arm -->
+  <path d="M190 222 L305 182" stroke="#e8b4a8" stroke-width="12" stroke-linecap="round"/>
+  <!-- hands together -->
+  <circle cx="302" cy="176" r="8" fill="#f5d0c5" stroke="#9a6b5c" stroke-width="1.5"/>
+  <circle cx="308" cy="182" r="7" fill="#e8b4a8" stroke="#9a6b5c" stroke-width="1.5"/>
+  <!-- cue -->
+  <rect x="400" y="80" width="200" height="70" rx="10" fill="#fff" stroke="#c4b5fd"/>
+  <text x="420" y="108" font-family="system-ui,sans-serif" font-size="14" fill="#4c1d95">膝盖叠放贴地</text>
+  <text x="420" y="132" font-family="system-ui,sans-serif" font-size="14" fill="#4c1d95">双臂向前伸直合掌</text>
+</svg>

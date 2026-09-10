@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <rect width="640" height="360" fill="#f7f5ff"/>
+  <text x="24" y="36" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#059669">② 打开 · 胸椎旋转</text>
+  <text x="24" y="60" font-family="system-ui,sans-serif" font-size="13" fill="#6b7280">下方手臂留在前方 · 上方手臂向后打开 · 眼随手 · 膝不分开</text>
+  <rect x="80" y="210" width="480" height="70" rx="12" fill="#ddd6fe"/>
+  <rect x="95" y="195" width="70" height="28" rx="8" fill="#c4b5fd"/>
+  <circle cx="130" cy="185" r="22" fill="#f5d0c5" stroke="#9a6b5c" stroke-width="2"/>
+  <!-- torso rotated more open toward ceiling -->
+  <ellipse cx="235" cy="200" rx="72" ry="30" transform="rotate(-25 235 200)" fill="#a78bfa" stroke="#6d28d9" stroke-width="2"/>
+  <ellipse cx="310" cy="230" rx="34" ry="24" fill="#8b5cf6" stroke="#6d28d9" stroke-width="2"/>
+  <!-- legs SAME stacked -->
+  <path d="M330 240 L390 290" stroke="#7c3aed" stroke-width="18" stroke-linecap="round"/>
+  <path d="M332 248 L392 298" stroke="#6d28d9" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  <path d="M390 290 L455 255" stroke="#7c3aed" stroke-width="16" stroke-linecap="round"/>
+  <path d="M392 298 L457 263" stroke="#6d28d9" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+  <!-- bottom arm stays forward -->
+  <path d="M185 215 L300 175" stroke="#f5d0c5" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="302" cy="176" r="8" fill="#f5d0c5" stroke="#9a6b5c" stroke-width="1.5"/>
+  <!-- top arm opens BACKWARD (up and back) -->
+  <path d="M200 195 L250 120 L310 85" fill="none" stroke="#e8b4a8" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="310" cy="85" r="8" fill="#e8b4a8" stroke="#9a6b5c" stroke-width="1.5"/>
+  <!-- motion arc -->
+  <path d="M295 170 Q270 110 315 90" fill="none" stroke="#10b981" stroke-width="3" stroke-dasharray="6 4"/>
+  <polygon points="318,88 305,95 312,102" fill="#10b981"/>
+  <rect x="380" y="70" width="230" height="95" rx="10" fill="#fff" stroke="#6ee7b7"/>
+  <text x="400" y="98" font-family="system-ui,sans-serif" font-size="14" fill="#065f46">胸口/胸椎跟着转</text>
+  <text x="400" y="122" font-family="system-ui,sans-serif" font-size="14" fill="#065f46">不要只转脖子</text>
+  <text x="400" y="146" font-family="system-ui,sans-serif" font-size="14" fill="#065f46">膝盖保持叠放不分开</text>
+</svg>
